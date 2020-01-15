@@ -8,7 +8,7 @@ jobs:
 - job: AA
   steps:
   - bash: echo "AA"
-  - bash: uname -a
+  - bash: uname -a && date
 
 - job: BBC
   steps:
