@@ -10,6 +10,6 @@ jobs:
   - bash: echo "AA"
   - bash: uname -a
 
-- job: B
+- job: BB
   steps:
-  - bash: echo "B"
+  - bash: echo "BB"
